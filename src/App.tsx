@@ -1,12 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {TestInterface} from 'types';
 
 function App() {
+  const foobar: TestInterface = {
+    x: 1,
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo"/>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
