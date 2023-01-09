@@ -17,10 +17,10 @@ export const Header = () => {
       <h1>
         <strong>Mega </strong> Ogłoszenia
       </h1>
-      <Btn text='Dodaj ogłoszenie'/>
+      <Btn to="/add" text='Dodaj ogłoszenie'/>
       <form className="search" onSubmit={setSearchFromLocaleState}>
         <input type="text" value={inputVal} onChange={e => setInputVal(e.target.value)}/>
-        <Btn text='Szukaj'/>
+        <Btn text='Szukaj' to='/'/>
 
       </form>
     </header>

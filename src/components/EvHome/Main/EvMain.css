@@ -1,0 +1,22 @@
+.ev_main {
+    background-color: #628E90;
+    color: #F5EFE6;
+    background-image: url("../../../img/bg2.webp");
+}
+
+.ev_main .main_logo, .ev_main h1, .ev_article {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 50px;
+    font-family: Calibri;
+    margin-bottom: 30px;
+}
+
+.ev_article {
+    font-size: 20px;
+}
+
+.ev_article div {
+    padding: 10px;
+}

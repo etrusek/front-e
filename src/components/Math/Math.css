@@ -1,0 +1,21 @@
+body {
+    background-color: #555;
+    color: #ddd;
+}
+
+.ma_main {
+    background-color: #a31;
+}
+
+.ma_nav ul{
+    display: flex;
+    background-color: #f3f;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ma_nav ul li{
+    margin: 5px;
+    list-style: none;
+    background-color: #f65;
+}
